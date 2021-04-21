@@ -6,7 +6,7 @@ redirect_from:
   - /2018/05/11/broadlink-rm-pro-and-tc2-for-home-assistant
 ---
 BroadLink RM Pro is a WiFi to RF/IR gateway for smart home. First of all you need it to control BroadLink TC2 smart switches. Also it is very useful if you want to control IR devices from Home Assistant.
-=brake=
+
 There is a [documentation on home-assistant.io on broadlink platform](https://www.home-assistant.io/components/switch.broadlink/). Here is just a quick summery with notes.
 
 1. Add new device to BroadLink E-Control app

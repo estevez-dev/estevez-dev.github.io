@@ -77,7 +77,7 @@ Restart Home Assistant server after adding an integration.
 
 If previous steps was successful you’ll find new entry under **Configuration** named **ZHA**. This is very useful interface to manage all your ZigBee devices and add new. So to add your first device click “Add devices” link. You will then have 60 seconds to pair your switch, sensor of light following it’s original instructions.
 
-!! Device you want to connect should be placed right near your Raspberry Pi. After successfully connected it can be moved wherever you want in a range of ZigBee operating.
+> Device you want to connect should be placed right near your Raspberry Pi. After successfully connected it can be moved wherever you want in a range of ZigBee operating.
 
 To connect Xiaomi Aqara or Mijia sensor we need:
 

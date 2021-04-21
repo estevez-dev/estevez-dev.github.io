@@ -3,25 +3,24 @@ title: 'How to connect Samsung PowerBot robot vacuum cleaner to Home Assistant'
 redirect_from:
   - /2019/10/08/how-to-connect-samsung-powerbot-robot-vacuum-cleaner-to-home-assistant
   - /how-to-connect-samsung-powerbot-robot-vacuum-cleaner-to-home-assistant
-feed:
-    limit: 10
+layout: post
 ---
 
 While there is a [component in Home Assistant for Samsung SmartThings integration](https://www.home-assistant.io/integrations/smartthings/), the things with vacuum cleaners is not so obvious as it can be. While I’m not sure about an older versions of Samsung robot cleaners, I can say that you can’t control newer versions (like VR9300 in my case) using only Home Assistant integration. Need some magic here.
 
-! I’m assuming that you already have your robot cleaner added to SmartThings app.
+> I’m assuming that you already have your robot cleaner added to SmartThings app.
 
 ## Robot vacuum state
 
-First things first we need to enable SmartThings integration in Home Assistant. [The instructions on home-assistant.io](https://www.home-assistant.io/integrations/smartthings/#basic-requirements) is quite detailed so I don’t see a reason to describe process here. Just follow it carefully.
+First we need to enable SmartThings integration in Home Assistant. [The instructions on home-assistant.io](https://www.home-assistant.io/integrations/smartthings/#basic-requirements) is quite detailed so I don’t see a reason to describe process here. Just follow it carefully.
 
 After SmartThings integration created and some time passed after it (2-3 minutes in my case) you’ll be able to see new entities added inside integration. Go to **Configuration** -> **Integrations** in your Home Assistant web UI and find SmartThings there:
 
-![](/img/how-to-connect-samsung-powerbot-robot-vacuum-cleaner-to-home-assistant/Screenshot-2019-10-08-at-20.51.54.png)
+![image](/img/how-to-connect-samsung-powerbot-robot-vacuum-cleaner-to-home-assistant/Screenshot-2019-10-08-at-20.51.54.png)
 
 Open it and you’ll find switch and several sensors:
 
-![](/img/how-to-connect-samsung-powerbot-robot-vacuum-cleaner-to-home-assistant/Screenshot-2019-10-08-at-20.52.53.png)
+![image](/img/how-to-connect-samsung-powerbot-robot-vacuum-cleaner-to-home-assistant/Screenshot-2019-10-08-at-20.52.53.png)
 
 “Виталька” is a name of my vacuum cleaner. In my case `switch.[name]` do absolutely nothing but `sensor.[name]_robot_cleaner_movement` represents almost real time robot state. We will use it later as well as `sensor.[name]_battery`.
 
@@ -36,17 +35,17 @@ ifttt:
 
 replacing `YOUR_API_KEY` with an actual key from your IFTTT [Webhooks Settings](https://ifttt.com/maker_webhooks/settings). We need the last part of URL:
 
-![](/img/how-to-connect-samsung-powerbot-robot-vacuum-cleaner-to-home-assistant/Screenshot-2019-10-08-at-21.09.17.png)
+![image](/img/how-to-connect-samsung-powerbot-robot-vacuum-cleaner-to-home-assistant/Screenshot-2019-10-08-at-21.09.17.png)
 
 Restart your Home Assistant once IFTTT configuration added and after that you will be able to fire events to IFTTT using `ifttt.trigger` service. While we still on IFTTT website lets create a couple of applets. One for starting cleaning, and the other for bringing our robot back to charger.
 
 Click on your account picture in the upper right corner and choose **Create**.
 
-![](/img/how-to-connect-samsung-powerbot-robot-vacuum-cleaner-to-home-assistant/Screenshot-2019-10-08-at-21.14.41.png)
+![image](/img/how-to-connect-samsung-powerbot-robot-vacuum-cleaner-to-home-assistant/Screenshot-2019-10-08-at-21.14.41.png)
 
 Click on **+This** on the next screen and search for “webhook”:
 
-![](/img/how-to-connect-samsung-powerbot-robot-vacuum-cleaner-to-home-assistant/Screenshot-2019-10-08-at-21.17.55.png)
+![image](/img/how-to-connect-samsung-powerbot-robot-vacuum-cleaner-to-home-assistant/Screenshot-2019-10-08-at-21.17.55.png)
 
 <div class="adsblock">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -63,15 +62,15 @@ Click on **+This** on the next screen and search for “webhook”:
 
 Click on “Webhooks” card, choose “Receive a web request” on the next screen, come up with your event name (for example `start_powerbot`) and hit Create _trigger_:
 
-![](/img/how-to-connect-samsung-powerbot-robot-vacuum-cleaner-to-home-assistant/Screenshot-2019-10-08-at-21.22.18.png)
+![image](/img/how-to-connect-samsung-powerbot-robot-vacuum-cleaner-to-home-assistant/Screenshot-2019-10-08-at-21.22.18.png)
 
 Now click on **+Thant**, search for “Samsung” and choose “Samsung Robot Vacuum”:
 
-![](/img/how-to-connect-samsung-powerbot-robot-vacuum-cleaner-to-home-assistant/Screenshot-2019-10-08-at-21.25.55.png)
+![image](/img/how-to-connect-samsung-powerbot-robot-vacuum-cleaner-to-home-assistant/Screenshot-2019-10-08-at-21.25.55.png)
 
 IFTTT will ask you now to connect your Samsung SmartThings account and after successful login you will be able to choose an action to perform on your robot vacuum:
 
-![](/img/how-to-connect-samsung-powerbot-robot-vacuum-cleaner-to-home-assistant/Screenshot-2019-10-08-at-21.28.32.png)
+![image](/img/how-to-connect-samsung-powerbot-robot-vacuum-cleaner-to-home-assistant/Screenshot-2019-10-08-at-21.28.32.png)
 
 As our trigger called `start_powerbot` let’s not create a mess and choose “Start vacuum cleaning”. Lastly IFTTT will ask you to choose a device from your SmartThings account to trigger an action on.
 

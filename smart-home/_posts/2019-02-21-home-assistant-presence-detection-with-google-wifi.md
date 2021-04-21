@@ -8,11 +8,11 @@ redirect_from:
 
 Previously my presence detection in Home Assistant works through Asus router and `asuswrt` component. And it was bad. Very bad. Recently I switched to Google WiFi and realized that the only way to implement presence detection with this router is IFTTT (Update: No). I thought it would be the slowest presence detection in the world but I was wrong.
 
-! While you still can do this through IFTTT you need to know that there is much easier way not depending on your router model and any 3rd party services – [Nmap Tracker](https://www.home-assistant.io/integrations/nmap_tracker/). You just enable this component and configure your devices IP addresses.
-!
-! I configured static IP addresses for devices I wanted to track using [DHCP IP Reservation](https://support.google.com/wifi/answer/6274660?hl=en) on Google WiFi router.
-!
-! If you still want to use IFTTT, you are welcome to continue reading.
+> While you still can do this through IFTTT you need to know that there is much easier way not depending on your router model and any 3rd party services – [Nmap Tracker](https://www.home-assistant.io/integrations/nmap_tracker/). You just enable this component and configure your devices IP addresses.
+>
+> I configured static IP addresses for devices I wanted to track using [DHCP IP Reservation](https://support.google.com/wifi/answer/6274660?hl=en) on Google WiFi router.
+>
+> If you still want to use IFTTT, you are welcome to continue reading.
 
 ## Home Assistant IFTTT webhook
 First of all we need to create a webhook for IFTTT in our Home Assistant instance through Integrations. Go to “Configuration” -> “Integrations” in Home Assistant web UI. Find “IFTTT” in “Set up a new integration” section and click “CONFIGURE”. You will be provided with webhook url to use in IFTTT applets. It should look similar to this:
@@ -43,15 +43,15 @@ binary_sensor:
 ## IFTTT applets
 Next. There is an official Google WiFi service in IFTTT and it can create IF’s like “If some device connected/disconnected”. That’s exactly what we need.
 
-![](/img/2019-02-21/ifttt_google_wifi.png)
+![image](/img/2019-02-21/ifttt_google_wifi.png)
 
 Open [IFTTT website](https://ifttt.com/) and login with your account. Go to “My Applets” and click “New Applet” in upper right corner.
 
-![](/img/2019-02-21/screenshot-ifttt.com-2019.02.21-11-10-25.png)
+![image](/img/2019-02-21/screenshot-ifttt.com-2019.02.21-11-10-25.png)
 
 Then hit “+this”, search for “Google WiFi” and click it. You will be asked to authorize IFTTT in your google account. After that you will be able to select one of the triggers Google WiFi can send to IFTTT:
 
-![](/img/2019-02-21/screenshot-ifttt.com-2019.02.21-11-20-06.png)
+![image](/img/2019-02-21/screenshot-ifttt.com-2019.02.21-11-20-06.png)
 
 Let’s start with “Device connects”. Click it and select device name you want to track on the next step.
 
@@ -59,9 +59,12 @@ Next you will be asked to create an action by clicking “+that”. For action y
 
 Now we need to fill all the fields for web request:
 
-URL: `The url of our Home Assistant webhook we created recently`
+URL: `[The url of our Home Assistant webhook we created recently]`
+
 Method: `POST`
+
 Content Type: `application/json`
+
 Body: `{ "action": "call_service", "service": "input_boolean.turn_on", "entity_id": "input_boolean.is_yegor_home"}`
 
 <div class="adsblock">
