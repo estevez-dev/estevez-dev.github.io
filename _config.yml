@@ -25,12 +25,34 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:categories/:title:output_ext
 github_username:  estevez-dev
+repository: estevez-dev/estevez-dev.github.io
 
 # Build settings
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.22.0"
 plugins:
+  - jekyll-include-cache
   - jekyll-feed
   - jekyll-redirect-from
+
+breadcrumbs: true
+
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-light" # "github-dark"
+    issue_term: "pathname"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+      layout: single
+      comments: true
+      share: true
+      related: true
 
 # whitelist:
 #  - jekyll-redirect-from
