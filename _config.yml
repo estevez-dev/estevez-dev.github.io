@@ -35,6 +35,7 @@ plugins:
   - jekyll-redirect-from
 
 breadcrumbs: true
+search: true
 
 comments:
   provider: "utterances"
