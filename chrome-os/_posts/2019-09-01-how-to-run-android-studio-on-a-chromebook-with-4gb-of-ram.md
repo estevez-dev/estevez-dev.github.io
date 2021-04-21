@@ -1,6 +1,6 @@
 ---
 title: 'How to run Android Studio on a Chromebook with 4GB of RAM'
-layout: post
+
 redirect_from:
     - /2019/09/01/how-to-run-android-studio-on-a-chromebook-with-4gb-of-ram
     - /how-to-run-android-studio-on-a-chromebook-with-4gb-of-ram

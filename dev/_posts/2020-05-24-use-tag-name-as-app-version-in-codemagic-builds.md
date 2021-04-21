@@ -1,6 +1,6 @@
 ---
 title: 'Use tag name as app version in Codemagic builds'
-layout: post
+
 redirect_from:
     - /2020/05/24/use-tag-name-as-app-version-in-codemagic-builds
     - /use-tag-name-as-app-version-in-codemagic-builds

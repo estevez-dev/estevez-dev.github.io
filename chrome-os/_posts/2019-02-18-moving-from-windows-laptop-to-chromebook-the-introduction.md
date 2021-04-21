@@ -1,6 +1,6 @@
 ---
 title: 'Moving from Windows laptop to Chromebook. The Introduction'
-layout: post
+
 redirect_from:
     - /2019/02/18/moving-from-windows-laptop-to-chromebook-the-introduction
     - /moving-from-windows-laptop-to-chromebook-the-introduction

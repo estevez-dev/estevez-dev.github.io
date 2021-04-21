@@ -1,6 +1,6 @@
 ---
 title: 'How to install Ubutnu on Chromebook'
-layout: post
+
 redirect_from:
     - /2020/09/20/how-to-install-ubutnu-on-chromebook
     - /how-to-install-ubutnu-on-chromebook

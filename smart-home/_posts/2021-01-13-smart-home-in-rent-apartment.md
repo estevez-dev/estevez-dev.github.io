@@ -1,6 +1,6 @@
 ---
 title: 'Smart home example: Smart home in a rent apartment'
-layout: post
+
 redirect_from:
     - /smart-home-in-rent-apartment
 ---

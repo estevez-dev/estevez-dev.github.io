@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: '[Updated] Home Assistant presence detection with Google WiFi'
 redirect_from:
   - /2019/02/21/home-assistant-presence-detection-with-google-wifi

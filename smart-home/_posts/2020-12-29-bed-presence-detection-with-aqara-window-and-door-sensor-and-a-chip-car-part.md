@@ -1,6 +1,6 @@
 ---
 title: 'Bed presence detection with Aqara window and door sensor and a cheap car part'
-layout: post
+
 redirect_from:
     - /bed-presence-detection-with-aqara-window-and-door-sensor-and-a-chip-car-part
 ---

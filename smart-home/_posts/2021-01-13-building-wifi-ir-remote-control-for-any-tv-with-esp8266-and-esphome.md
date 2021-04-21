@@ -1,6 +1,6 @@
 ---
 title: 'Building WiFi IR remote control for any TV with ESP8266 Wemos D1 mini and ESPHome'
-layout: post
+
 redirect_from:
   - /building-wifi-ir-remote-control-for-any-tv-with-esp8266-and-esphome
 ---

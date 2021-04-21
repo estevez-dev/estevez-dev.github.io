@@ -1,6 +1,6 @@
 ---
 title: 'Using variables as configuration for Home Assistant automation'
-layout: post
+
 redirect_from:
   - /using-variables-as-configuration-for-home-assistant-automation
 ---

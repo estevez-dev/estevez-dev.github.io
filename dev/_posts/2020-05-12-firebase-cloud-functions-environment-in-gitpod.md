@@ -1,6 +1,6 @@
 ---
 title: 'Firebase Cloud Functions development environment in Gitpod'
-layout: post
+
 redirect_from:
         - /2020/05/12/firebase-cloud-functions-environment-in-gitpod
         - /firebase-cloud-functions-development-environment-in-gitpod

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title:  "DIY Smart Appliance: How to make WiFi-enabled smart humidifier from a regular one"
 redirect_from:
   - /how-to-make-wifi-enabled-smart-humidifier-from-a-regular-one

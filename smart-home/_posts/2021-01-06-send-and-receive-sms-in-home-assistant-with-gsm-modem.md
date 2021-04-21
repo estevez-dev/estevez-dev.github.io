@@ -1,6 +1,6 @@
 ---
 title: 'Send and receive SMS in Home Assistant with GSM modem'
-layout: post
+
 redirect_from:
   - /send-and-receive-sms-in-home-assistant-with-gsm-modem
 ---

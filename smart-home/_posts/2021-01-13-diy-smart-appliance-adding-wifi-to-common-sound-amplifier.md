@@ -1,12 +1,10 @@
 ---
 title: 'DIY Smart Appliance: Adding WiFi power control to an integrated amplifier'
-layout: post
+header:
+  teaser: /img/diy-smart-appliance-adding-wifi-to-common-sound-amplifier/ext.jpg
 redirect_from:
   - /diy-smart-appliance-adding-wifi-to-common-sound-amplifier
 ---
-
-![image](/img/diy-smart-appliance-adding-wifi-to-common-sound-amplifier/ext.jpg)
-
 Previously I was using JBL Bar connected to a TV in my living room. It was controlled with WiFi IR bridge, so whenever my Chromecast or PS4 was in playing state, the Bar was turned on and ready.
 
 Now I have passive speakers with a simple integrated amplifier, and it can't be turned on or off without physical interaction. You need to press and release the button on the front panel to toggle amplifier power. So today we will add WiFi power control to Cambridge Audion AXA25 integrated amplifier.

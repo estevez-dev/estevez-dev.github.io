@@ -1,6 +1,6 @@
 ---
 title: 'How to write an image to SD Card in Chrome OS'
-layout: post
+
 redirect_from:
     - /2020/03/09/how-to-write-an-image-to-sd-card-in-chrome-os
     - /how-to-write-an-image-to-sd-card-in-chrome-os

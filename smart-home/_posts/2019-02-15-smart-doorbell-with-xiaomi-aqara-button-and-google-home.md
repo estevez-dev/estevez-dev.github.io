@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title:  "Smart doorbell with Xiaomi Aqara button and Google Home"
 redirect_from:
   - /2019/02/15/smart-doorbell-with-xiaomi-aqara-button-and-google-home

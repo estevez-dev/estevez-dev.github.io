@@ -1,6 +1,6 @@
 ---
 title: 'Fossil Sport review or how to solve all issues with it'
-layout: post
+
 redirect_from:
     - /2019/07/25/fossil-sport-review-or-how-to-solve-all-its-issues
     - /fossil-sport-review-or-how-to-solve-all-issues-with-it
