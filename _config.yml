@@ -44,6 +44,12 @@ comments:
     theme: "github-light" # "github-dark"
     issue_term: "pathname"
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-125755611-5"
+    anonymize_ip: false # default
+
 defaults:
   # _posts
   - scope:
