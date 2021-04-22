@@ -8,7 +8,8 @@ redirect_from:
 
 While there is a [component in Home Assistant for Samsung SmartThings integration](https://www.home-assistant.io/integrations/smartthings/), the things with vacuum cleaners is not so obvious as it can be. While I’m not sure about an older versions of Samsung robot cleaners, I can say that you can’t control newer versions (like VR9300 in my case) using only Home Assistant integration. Need some magic here.
 
-{: .notice--warning } I’m assuming that you already have your robot cleaner added to SmartThings app.
+I’m assuming that you already have your robot cleaner added to SmartThings app.
+{: .notice--warning}
 
 ## Robot vacuum state
 
