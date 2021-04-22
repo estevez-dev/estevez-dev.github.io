@@ -237,7 +237,7 @@ You can see `hdmi1` and `hdmi2` services have `transmit_raw` instead of `transmi
 
 That's it. Compile it and flash with [ESPHome Flasher](https://github.com/esphome/esphome-flasher).
 
- ## TV
+## TV
 
 ### Placing the board
 
