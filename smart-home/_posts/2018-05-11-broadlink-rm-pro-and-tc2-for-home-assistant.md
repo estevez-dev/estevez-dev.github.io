@@ -1,5 +1,4 @@
 ---
-
 title:  "BroadLink RM Pro and TC2 for Home Assistant"
 redirect_from:
   - /broadlink-rm-pro-and-tc2-for-home-assistant

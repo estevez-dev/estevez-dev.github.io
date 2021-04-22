@@ -56,18 +56,7 @@ sudo startxfce4
 
 Use <kbd>Ctrl+Alt+Shift+Back</kbd> and <kbd>Ctrl+Alt+Shift+Forward</kbd> to switch between Ubuntu and Chrome OS.
 
-<div class="adsblock">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-6530242109614004"
-     data-ad-slot="2178866199"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div>
+{% include ads_in_post.html %}
 
 ## Set up Android Studio
 

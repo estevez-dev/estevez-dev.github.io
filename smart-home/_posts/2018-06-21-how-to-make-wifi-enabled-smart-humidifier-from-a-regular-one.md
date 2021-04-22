@@ -40,18 +40,7 @@ The last step will be a gluing all new parts inside our device. Don’t repeat m
 
 ![image](/img/how-to-make-wifi-enabled-smart-humidifier-from-a-regular-one/IMG_20180809_235904921-1024x768.jpg)
 
-<div class="adsblock">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-6530242109614004"
-     data-ad-slot="2178866199"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div>
+{% include ads_in_post.html %}
 
 ## Improvements
 

@@ -28,18 +28,7 @@ As you can see I'm taking 220V AC power from amplifier and converting it to 5V D
 
 [![image](/img/diy-smart-appliance-adding-wifi-to-common-sound-amplifier/int.jpg)](/img/diy-smart-appliance-adding-wifi-to-common-sound-amplifier/int.jpg)
 
-<div class="adsblock">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-6530242109614004"
-     data-ad-slot="2178866199"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div>
+{% include ads_in_post.html %}
 
 ### Firmware
 

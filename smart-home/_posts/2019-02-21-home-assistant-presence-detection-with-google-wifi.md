@@ -66,18 +66,7 @@ Content Type: `application/json`
 
 Body: `{ "action": "call_service", "service": "input_boolean.turn_on", "entity_id": "input_boolean.is_yegor_home"}`
 
-<div class="adsblock">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-6530242109614004"
-     data-ad-slot="2178866199"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div>
+{% include ads_in_post.html %}
 
 ## Handling IFTTT requests
 
