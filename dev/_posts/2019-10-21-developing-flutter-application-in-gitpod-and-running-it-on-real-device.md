@@ -10,7 +10,7 @@ redirect_from:
 
 Today I want to show how I configured Gitpod for Flutter development and how I’m running the app from cloud IDE right on my real Android device.
 
-> Please note that HA Client development was finished and its gitpod config could be outdated
+Please note that HA Client development was finished and its gitpod config could be outdated {: .notice--warning}
 
 ![image](/img/developing-flutter-application-in-gitpod-and-running-it-on-real-device/IMG_20191021_012006-900x620.jpg)
 
@@ -71,7 +71,7 @@ Lets take a closer look on some entries.
 
 That is why we will put Flutter tool and Android SDK into `/workspace` directory to prevent it from downloading on each start. Also we will have full control over SDKs including it’s cache and versions. It is `init` subsection of `tasks`. We are downloading Android SDK tools and Flutter tool, also we are upgrading Flutter and Dart SDK to a latest versions and launching Android licenses accepting process.
 
-> Pay attention on `cd /workspace/ha_client` line. You need to replace `ha_client` with your project sources directory name.
+Pay attention on `cd /workspace/ha_client` line. You need to replace `ha_client` with your project sources directory name. {: .notice--warning}
 
 Now we are ready to start our Gitpod environment. You can find additional information in [Gitpod documentation](https://www.gitpod.io/docs/).
 
@@ -91,7 +91,7 @@ To switch your device back to USB debug you need to run `adb usb`.
 
 I didn’t check Dynamic DNS solution because my home router has static dedicated IP address. But I assume you need to forward port on your router in both cases. It is better to open some random external port instead of default `5555`. For example `39393`. So your external `39393` port should be forwarded to your Android device’s IP address and port `5555`.
 
-> There is also a simple solution for network tunneling called `ngrok`. Here is a [guide to connect to your Android device from Gitpod being on any network](/adb-over-any-network-without-port-forwarding-even-over-mobile-3g-4g-lte), even mobile.
+There is also a simple solution for network tunneling called `ngrok`. Here is a [guide to connect to your Android device from Gitpod being on any network](/adb-over-any-network-without-port-forwarding-even-over-mobile-3g-4g-lte), even mobile. {: .notice--success}
 
 It is also possible to use VPN if your router supports it. But in this case you will need to set up VPN connection on your Gitpod environment as well.
 

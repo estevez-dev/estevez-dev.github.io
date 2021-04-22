@@ -8,11 +8,9 @@ redirect_from:
 
 Previously my presence detection in Home Assistant works through Asus router and `asuswrt` component. And it was bad. Very bad. Recently I switched to Google WiFi and realized that the only way to implement presence detection with this router is IFTTT (Update: No). I thought it would be the slowest presence detection in the world but I was wrong.
 
-> While you still can do this through IFTTT you need to know that there is much easier way not depending on your router model and any 3rd party services – [Nmap Tracker](https://www.home-assistant.io/integrations/nmap_tracker/). You just enable this component and configure your devices IP addresses.
->
-> I configured static IP addresses for devices I wanted to track using [DHCP IP Reservation](https://support.google.com/wifi/answer/6274660?hl=en) on Google WiFi router.
->
-> If you still want to use IFTTT, you are welcome to continue reading.
+While you still can do this through IFTTT you need to know that there is much easier way not depending on your router model and any 3rd party services – [Nmap Tracker](https://www.home-assistant.io/integrations/nmap_tracker/). You just enable this component and configure your devices IP addresses.
+I configured static IP addresses for devices I wanted to track using [DHCP IP Reservation](https://support.google.com/wifi/answer/6274660?hl=en) on Google WiFi router.
+If you still want to use IFTTT, you are welcome to continue reading. {: .notice--success}
 
 ## Home Assistant IFTTT webhook
 First of all we need to create a webhook for IFTTT in our Home Assistant instance through Integrations. Go to “Configuration” -> “Integrations” in Home Assistant web UI. Find “IFTTT” in “Set up a new integration” section and click “CONFIGURE”. You will be provided with webhook url to use in IFTTT applets. It should look similar to this:
