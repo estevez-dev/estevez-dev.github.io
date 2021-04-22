@@ -50,7 +50,8 @@ I'll use a USB port to connect Chromecast to it. Also, I'll use USB port pins to
 
 [![image](/img/building-wifi-ir-remote-control-for-any-tv-with-esp8266-and-esphome/usb_power_pins.jpg)](/img/building-wifi-ir-remote-control-for-any-tv-with-esp8266-and-esphome/usb_power_pins.jpg)
 
-! You need to be careful detecting 5V and Ground pins on the USB port. Here is a little help:
+You need to be careful detecting 5V and Ground pins on the USB port. Here is a little help:
+{: .notice--warning}
 
 ![image](/img/building-wifi-ir-remote-control-for-any-tv-with-esp8266-and-esphome/usb_pinout.png)
 
@@ -87,13 +88,15 @@ But first, we need to solder some contacts on the IR shield. It has several IR L
 
 [![image](/img/building-wifi-ir-remote-control-for-any-tv-with-esp8266-and-esphome/shield_contacts.png)](/img/building-wifi-ir-remote-control-for-any-tv-with-esp8266-and-esphome/shield_contacts.png)
 
-!!! Note that you can use the same board and shield to get IR codes from your TV remote, or build a separate [IR receiver](/ir-code-reader-with-esp8266-wemos-d1-mini-and-esphome). If you will use the same board, you need also enable receiving LED on IR shield by soldering the corresponding contact plates. For example, to enable the IR receiver on the `D4` pin:
+**Note** that you can use the same board and shield to get IR codes from your TV remote, or build a separate [IR receiver](/ir-code-reader-with-esp8266-wemos-d1-mini-and-esphome). If you will use the same board, you need also enable receiving LED on IR shield by soldering the corresponding contact plates. For example, to enable the IR receiver on the `D4` pin:
+{: .notice--info}
 
 ![image](/img/building-wifi-ir-remote-control-for-any-tv-with-esp8266-and-esphome/d4_ir_recv.png)
 
 Now we are ready to solder our device together.
 
-!!! Note that we have our sender - the `IR4` LED from the one side of our device, and micro USB port - from the opposite side. This will help us a lot in the future when we will need to flash the board or test the functionality without removing it from its place inside TV.
+**Note** that we have our sender - the `IR4` LED from the one side of our device, and micro USB port - from the opposite side. This will help us a lot in the future when we will need to flash the board or test the functionality without removing it from its place inside TV.
+{: .notice--info}
 
 ![image](/img/building-wifi-ir-remote-control-for-any-tv-with-esp8266-and-esphome/ir4_led.png)
 
@@ -243,7 +246,8 @@ Let's find our TV IR receiver. Usually, it is where the red light is flashing on
 
 While the power from the power supply is not connected yet, we can power the board from micro USB, power our TV and make the first test.
 
-!! Warning! You need to be extremely careful when powering on the appliance without its housing! Avoid touching the boards and other internal parts of the appliance because it can lead to appliance damage or your death!
+**Warning.** You need to be extremely careful when powering on the appliance without its housing! Avoid touching the boards and other internal parts of the appliance because it can lead to appliance damage or your death!
+{: .notice--danger}
 
 ![image](/img/building-wifi-ir-remote-control-for-any-tv-with-esp8266-and-esphome/test.gif)
 

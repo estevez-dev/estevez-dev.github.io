@@ -34,7 +34,8 @@ As I already have Wemos D1 mini and a relay in my amplifier, you could see more 
 * IN3 of motor driver -> D7 on Wemos
 * IN4 of motor driver -> D8 on Wemos
 
-! Note that ESPHome currently supports only two types of stepper motor drivers. See ESPHome [documentation](https://esphome.io/components/stepper/index.html) for more info.
+**Note** that ESPHome currently supports only two types of stepper motor drivers. See ESPHome [documentation](https://esphome.io/components/stepper/index.html) for more info.
+{: .notice--info}
 
 <div class="adsblock">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
