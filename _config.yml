@@ -57,7 +57,7 @@ defaults:
       type: posts
     values:
       show_date: true
-      layout: single
+      layout: post
       comments: true
       share: false
       related: true
