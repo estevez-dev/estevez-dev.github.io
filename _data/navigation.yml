@@ -1,0 +1,11 @@
+main:
+  - title: "Samrt Home"
+    url: /smart-home/
+  - title: "Dev"
+    url: /dev/
+  - title: "Chrome OS"
+    url: /chrome-os/
+  - title: "Gear"
+    url: /gear/
+  - title: "About"
+    url: /about
