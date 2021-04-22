@@ -34,7 +34,7 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
 
-teaser: /img/teaser_600px.jpg
+teaser: /img/teaser_500x300.jpg
 breadcrumbs: true
 search: true
 
