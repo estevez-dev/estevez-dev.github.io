@@ -1,6 +1,7 @@
 ---
 title: 'Developing Flutter application in Gitpod and running it on real device'
-
+header:
+  teaser: /img/developing-flutter-application-in-gitpod-and-running-it-on-real-device/IMG_20191021_012006-900x620.jpg
 redirect_from:
   - /2019/10/21/developing-flutter-application-in-gitpod-and-running-it-on-real-device
   - /developing-flutter-application-in-gitpod-and-running-it-on-real-device
@@ -12,8 +13,6 @@ Today I want to show how I configured Gitpod for Flutter development and how Iâ€
 
 Please note that HA Client development was finished and its gitpod config could be outdated.
 {: .notice--warning}
-
-![image](/img/developing-flutter-application-in-gitpod-and-running-it-on-real-device/IMG_20191021_012006-900x620.jpg)
 
 ## Gitpod configuration
 

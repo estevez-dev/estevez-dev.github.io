@@ -1,6 +1,7 @@
 ---
 title: 'Smart home example: Smart home in a rent apartment'
-
+header:
+  teaser: /img/smart-home-in-rent-apartment/modem.jpg
 redirect_from:
     - /smart-home-in-rent-apartment
 ---
