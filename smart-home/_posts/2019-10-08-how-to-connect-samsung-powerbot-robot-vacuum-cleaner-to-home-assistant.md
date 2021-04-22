@@ -8,7 +8,7 @@ redirect_from:
 
 While there is a [component in Home Assistant for Samsung SmartThings integration](https://www.home-assistant.io/integrations/smartthings/), the things with vacuum cleaners is not so obvious as it can be. While I’m not sure about an older versions of Samsung robot cleaners, I can say that you can’t control newer versions (like VR9300 in my case) using only Home Assistant integration. Need some magic here.
 
-I’m assuming that you already have your robot cleaner added to SmartThings app.{:.notice--warning}
+I’m assuming that you already have your robot cleaner added to SmartThings app. {: .notice--warning}
 
 ## Robot vacuum state
 
@@ -46,19 +46,6 @@ Click on your account picture in the upper right corner and choose **Create**.
 Click on **+This** on the next screen and search for “webhook”:
 
 ![image](/img/how-to-connect-samsung-powerbot-robot-vacuum-cleaner-to-home-assistant/Screenshot-2019-10-08-at-21.17.55.png)
-
-<div class="adsblock">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-6530242109614004"
-     data-ad-slot="2178866199"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div>
 
 Click on “Webhooks” card, choose “Receive a web request” on the next screen, come up with your event name (for example `start_powerbot`) and hit Create _trigger_:
 
