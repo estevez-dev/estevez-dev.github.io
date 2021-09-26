@@ -1,5 +1,5 @@
 ---
-title: 'Fossil Sport review or how to solve all issues with it'
+title: 'Fossil Sport'
 header:
   teaser: /img/fossil-sport-review-or-how-to-solve-all-its-issues/0001.jpg
 redirect_from:
@@ -7,13 +7,18 @@ redirect_from:
     - /fossil-sport-review-or-how-to-solve-all-issues-with-it
 ---
 
-Looking back in time, I’m indeed was a fan of smartwatches. My first wearable device was the first watch with Android Wear – LG G Watch. It was very strange-looking yet very cool device.
+# Predecessors
 
-![image](/img/fossil-sport-review-or-how-to-solve-all-its-issues/IMG_20150805_185206_2-1024x768.jpg)
+| Newest  first |   |
+| ----------- | ----------- |
+| Huawei Watch | ![image](/img/fossil-sport-review-or-how-to-solve-all-its-issues/001.jpg) |  |
+| LG G Watch | ![image](/img/fossil-sport-review-or-how-to-solve-all-its-issues/000.jpg) |
+
+Looking back in time, I’m indeed was a fan of smartwatches. My first wearable device was the first watch with Android Wear – LG G Watch. It was very strange-looking yet very cool device.
 
 My second watch was the best Wear OS device (in my opinion) of all time – the first Huawei Watch. It’s classic design, amazing fully round screen and sapphire crystal glass that really cannot be scratched (unlike Gorilla Glass) will forever stay in my heart. And in my box with old devices. This beautiful watch still works by the way, but it’s battery don’t last long and vibration motor is broken.
 
-![image](/img/fossil-sport-review-or-how-to-solve-all-its-issues/IMG_20160528_132539-1024x768.jpg)
+# Review
 
 I bought Fossil Sport in my trip to Italy. I heard a lot about it previously and I wanted a lightweight watch with true water resistance, heart rate sensor and NFC. Also there was a discount on it. Also it was an official Fossil store in Florence so I could not resist.
 
@@ -40,6 +45,8 @@ The watch feels extremely lightweight on hand.
 Fossil Sport has no wirelesses charging option, but it’s charger was designed in a very smart way. It is magnetic and the contact plates of watch goes around all it’s body so the orientation of charger can be any. And it is very convenient.
 
 ![image](/img/fossil-sport-review-or-how-to-solve-all-its-issues/IMG_20190725_120343-1024x768.jpg)
+
+# Issues
 
 Now we slowly moving from good to bad. Battery life is terrible. If you want to squeeze a full day without charging from this device, you need to:
 
