@@ -4,6 +4,10 @@ header:
   teaser: /img/jabra-elite-85h/cover.jpeg
 ---
 
+It is a true pleasure for me to work with new gears. It can be a new monitor or even a new mouse pad. But today, the thing that makes me happy is Jabra Elite 85h true wireless over-the-ear headphones with active noise cancelling.
+
+My previous music-listening and calling tool were Soundcore Space NC by Anker. It was a cheap yet good over-the-ear Bluetooth noise-cancelling solution with only one issue. After about 30 minutes on a call, the microphone goes off, and the only way to make it work again was to turn the headphones off and on again. That was not critical but annoying.
+
 # Predecessors
 
 | Newest  first |   |

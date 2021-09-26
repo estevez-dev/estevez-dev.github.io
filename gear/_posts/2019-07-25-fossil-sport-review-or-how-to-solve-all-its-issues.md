@@ -7,16 +7,17 @@ redirect_from:
     - /fossil-sport-review-or-how-to-solve-all-issues-with-it
 ---
 
+Looking back in time, I’m indeed was a fan of smartwatches. My first wearable device was the first watch with Android Wear – LG G Watch. It was very strange-looking yet very cool device.
+
+My second watch was the best Wear OS device (in my opinion) of all time – the first Huawei Watch. It’s classic design, amazing fully round screen and sapphire crystal glass that really cannot be scratched (unlike Gorilla Glass) will forever stay in my heart. And in my box with old devices. This beautiful watch still works by the way, but it’s battery don’t last long and vibration motor is broken.
+
 # Predecessors
 
 | Newest  first |   |
 | ----------- | ----------- |
-| Huawei Watch | ![image](/img/fossil-sport-review-or-how-to-solve-all-its-issues/001.jpg) |  |
+| TicWatch Pro | ![image](/img/fossil-sport-review-or-how-to-solve-all-its-issues/tic.jpeg) |
+| Huawei Watch | ![image](/img/fossil-sport-review-or-how-to-solve-all-its-issues/001.jpg) |
 | LG G Watch | ![image](/img/fossil-sport-review-or-how-to-solve-all-its-issues/000.jpg) |
-
-Looking back in time, I’m indeed was a fan of smartwatches. My first wearable device was the first watch with Android Wear – LG G Watch. It was very strange-looking yet very cool device.
-
-My second watch was the best Wear OS device (in my opinion) of all time – the first Huawei Watch. It’s classic design, amazing fully round screen and sapphire crystal glass that really cannot be scratched (unlike Gorilla Glass) will forever stay in my heart. And in my box with old devices. This beautiful watch still works by the way, but it’s battery don’t last long and vibration motor is broken.
 
 # Review
 
