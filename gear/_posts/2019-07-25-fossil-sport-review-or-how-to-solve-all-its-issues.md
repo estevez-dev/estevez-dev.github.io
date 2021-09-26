@@ -17,7 +17,7 @@ My second watch was the best Wear OS device (in my opinion) of all time – the 
 | ----------- | ----------- |
 | TicWatch Pro | ![image](/img/fossil-sport-review-or-how-to-solve-all-its-issues/tic.jpeg) |
 | Huawei Watch | ![image](/img/fossil-sport-review-or-how-to-solve-all-its-issues/001.jpg) |
-| LG G Watch | ![image](/img/fossil-sport-review-or-how-to-solve-all-its-issues/000.jpg) |
+| [LG G Watch](/gear/lg-g-watch.html) | ![image](/img/fossil-sport-review-or-how-to-solve-all-its-issues/000.jpg) |
 
 # Review
 
