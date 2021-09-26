@@ -1,7 +1,7 @@
 ---
 title: 'Jabra Elite 85h true wireless over-the-ear headphones with active noise cancelling'
 header:
-  teaser: /img/jabra-elite-85h/001.jpeg
+  teaser: /img/jabra-elite-85h/cover.jpeg
 ---
 
 ![image](/img/jabra-elite-85h/001.jpeg)
