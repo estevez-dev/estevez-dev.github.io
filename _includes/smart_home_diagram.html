@@ -1,12 +1,14 @@
 <script src="https://cdn.jsdelivr.net/npm/gojs/release/go.js"></script>
 <div id="diagram"
-     style="width:100%; height:500px; background-color: #DAE4E4;"></div>
+     style="width:100%; height:500px; padding-bottom: 20px;"></div>
 <script>
-    var myDiagram = new go.Diagram("diagram",
-    {
-    "undoManager.isEnabled": true,
-    layout: new go.TreeLayout({ angle: 90, layerSpacing: 35 })
-    });
+    var myDiagram = new go.Diagram(
+        "diagram",
+        {
+            "toolManager.mouseWheelBehavior": go.ToolManager.WheelZoom,
+            layout: new go.TreeLayout({ angle: 90, layerSpacing: 35 })
+        }
+    );
 
     myDiagram.nodeTemplate =
     new go.Node("Horizontal",
