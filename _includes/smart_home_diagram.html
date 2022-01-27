@@ -48,13 +48,13 @@
     // it's best to declare all templates before assigning the model
     myDiagram.model = new go.TreeModel(
     [
-    { key: "serverGroup", text: "Home Assistant Blue", isGroup: true },
         { key: "ha",              name: "Home Assistant", source: "none.png", group: "serverGroup"},
         { key: "deConz", parent: "ha", name: "deCONZ",    source: "none.png", group: "serverGroup"},
         { key: "mqtt", parent: "ha", name: "MQTT",   source: "none.png", group: "serverGroup"},
         { key: "miHub", parent: "mqtt", name: "MiLight Hub", source: "none.png" },
         { key: "miBulbs", parent: "miHub", name: "MiLight Bulbs",     source: "none.png" },
         { key: "gledopto", parent: "deConz", name: "Gledopto Light Bulbs", source: "none.png" },
-        { key: "aqara", parent: "deConz", name: "Aqara Sensors", source: "none.png" }
+        { key: "aqara", parent: "deConz", name: "Aqara Sensors", source: "none.png" },
+        { key: "serverGroup", text: "Home Assistant Blue", isGroup: true },
     ]);
 </script>    
