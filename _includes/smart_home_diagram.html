@@ -12,38 +12,37 @@
         }
     );
 
-    myDiagram.nodeTemplate =
-    new go.Node("Horizontal",
-    { background: "#44CCFF" })
-    .add(new go.Picture(
-        { margin: 10, width: 50, height: 50, background: "red" })
-        .bind("source"))
-    .add(new go.TextBlock("Default Text",
-        { margin: 12, stroke: "white", font: "bold 16px sans-serif" })
-        .bind("text", "name"));
+    myDiagram.nodeTemplate = new go.Node("Auto",
+        { background: "#44CCFF" })
+            .add(new go.Picture(
+                { margin: 10, width: 50, height: 50, background: "red" })
+                .bind("source"))
+            .add(new go.TextBlock("Default Text",
+                { margin: 12, stroke: "white", font: "bold 16px sans-serif" })
+                .bind("text", "name"));
 
     // define a Link template that routes orthogonally, with no arrowhead
     myDiagram.linkTemplate =
-    new go.Link(
-        // default routing is go.Link.Normal
-        // default corner is 0
-        { routing: go.Link.Orthogonal, corner: 5 })
-        // the link path, a Shape
-        .add( new go.Shape({ strokeWidth: 3, stroke: "#555" }))
-        // if we wanted an arrowhead we would also add another Shape with toArrow defined:
-        //.add( new go.Shape({  toArrow: "Standard", stroke: null  }))
+        new go.Link(
+            // default routing is go.Link.Normal
+            // default corner is 0
+            { routing: go.Link.Orthogonal, corner: 5 })
+            // the link path, a Shape
+            .add( new go.Shape({ strokeWidth: 3, stroke: "#555" }))
+            // if we wanted an arrowhead we would also add another Shape with toArrow defined:
+            //.add( new go.Shape({  toArrow: "Standard", stroke: null  }))
 
-        myDiagram.groupTemplate =
-  $(go.Group, "Vertical",
-    { ungroupable: false }, // allow Ctrl-Shift-G to ungroup a selected Group.
-    $(go.TextBlock,
-      { font: "bold 12pt sans-serif" },
-      new go.Binding("text")),
-    $(go.Panel, "Auto",
-      $(go.Shape, { fill: "transparent" }),
-      $(go.Placeholder, { padding: 10 })
-    )
-  );
+    myDiagram.groupTemplate =
+        $(go.Group, "Vertical",
+            { ungroupable: false }, // allow Ctrl-Shift-G to ungroup a selected Group.
+            $(go.TextBlock,
+            { font: "bold 12pt sans-serif" },
+            new go.Binding("text")),
+            $(go.Panel, "Auto",
+            $(go.Shape, { fill: "transparent" }),
+            $(go.Placeholder, { padding: 10 })
+            )
+        );
 
     // it's best to declare all templates before assigning the model
     myDiagram.model = new go.TreeModel(
