@@ -5,3 +5,4 @@ taxonomy: smart-home
 entries_layout: grid
 classes: wide
 ---
+TEST
