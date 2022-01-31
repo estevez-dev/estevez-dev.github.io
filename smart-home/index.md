@@ -7,7 +7,7 @@ classes: wide
 ---
 ## Home Assistant smart home configuration documented
 
-I'm working on the documentation for my current and future smart home setup to show an example of how awesome Home Assistant could be. Each item will become a link soon.
+I'm working on the documentation for my current and future smart home setup to show an example of how awesome Home Assistant could be. Each item will become a link soon. See [all posts below](#posts) for more.
 {: .notice--info}
 
 * Home Assistant Blue server
