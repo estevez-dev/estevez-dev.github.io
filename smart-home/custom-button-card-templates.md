@@ -5,8 +5,6 @@ toc: true
 comments: true
 ---
 
-{% include ads_in_post.html %}
-
 This is my collection of [templates for Custom Home Assistant Lovelace Button Card](https://github.com/custom-cards/button-card#Configuration-Templates).
 
 ![badges](/img/home-assistant-mobole-lovelace-dashboard-example/cards_example.png)
@@ -301,6 +299,8 @@ variables: # The main configuration for the button
   top_right_icon: battery
 ```
 
+{% include ads_in_post.html %}
+
 ## Light
 
 Inherits [badge](#badge) to change some options and add additional brightness icon. That means you need to have a `badge` template included in your `button_card_templates`. 
@@ -504,6 +504,8 @@ climate_device:
       - padding-left: 10px
 ```
 
+{% include ads_in_post.html %}
+
 ### Usage
 
 See [heater](#heater) or [humidifier](#humidifier) usage.
@@ -619,6 +621,8 @@ template:
   - climate_device
   - humidifier
 ```
+
+{% include ads_in_post.html %}
 
 ## Mode card
 
@@ -740,3 +744,5 @@ cards:
   variables:
     mode: night
 ```
+
+{% include ads_in_post.html %}
