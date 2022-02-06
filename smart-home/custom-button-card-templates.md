@@ -4,6 +4,9 @@ layout: single
 toc: true
 comments: true
 ---
+
+{% include ads_in_post.html %}
+
 This is my collection of [templates for Custom Home Assistant Lovelace Button Card](https://github.com/custom-cards/button-card#Configuration-Templates).
 
 ![badges](/img/home-assistant-mobole-lovelace-dashboard-example/cards_example.png)
@@ -245,6 +248,9 @@ badge:
                 return "1";
             ]]]
 ```
+
+{% include ads_in_post.html %}
+
 ### Usage
 
 We will use [`variables`](https://github.com/custom-cards/button-card#variables) to configure our button. Don't forget to add any entity mentioned in `variables` to the [`triggers_update`](https://github.com/custom-cards/button-card#triggers_update) list.
@@ -338,6 +344,8 @@ light:
               return 'var(--paper-item-icon-color)';
           ]]]
 ```
+
+{% include ads_in_post.html %}
 
 ### Useage
 
@@ -433,6 +441,8 @@ room_state:
   hold_action:
     action: none
 ```
+
+{% include ads_in_post.html %}
 
 ### Usage
 
@@ -532,6 +542,8 @@ heater:
       return 'mdi:radiator-disabled'
     ]]]
 ```
+
+{% include ads_in_post.html %}
 
 ### Usage
 
@@ -701,6 +713,8 @@ mode_card:
               return 'var(--paper-item-icon-color)';
           ]]]
 ```
+
+{% include ads_in_post.html %}
 
 ### Usage
 

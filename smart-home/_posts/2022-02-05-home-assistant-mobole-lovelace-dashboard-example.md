@@ -33,6 +33,8 @@ This is the main button on my dashboard. It is flexible and responsive and can d
 
 This card is almost the same as the entity button, but with some changes. You can get a template and usage example in my [custom button card templates collection](/smart-home/custom-button-card-templates#light).
 
+{% include ads_in_post.html %}
+
 ## Climate entities
 
 ![Heater](/img/home-assistant-mobole-lovelace-dashboard-example/heater_example.png){:width="300px"}
