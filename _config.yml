@@ -61,12 +61,13 @@ defaults:
       type: posts
     values:
       show_date: true
-      layout: post
+      layout: single
       comments: true
       share: false
       related: true
       toc: true
-      toc_label: "Table of Contents"
+      toc_sticky: true
+      toc_label: "In this post"
       toc_icon: "list"
 
 # whitelist:

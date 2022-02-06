@@ -11,6 +11,9 @@ I'm working on the documentation for my current and future smart home setup to s
 {: .notice--info}
 
 * Home Assistant Blue server
+    * UI
+      * [Mobile Lovelace dashboard](/smart-home/home-assistant-mobole-lovelace-dashboard-example.html)
+      * [Custom Button card templates collection](/smart-home/custom-button-card-templates)
     * Automation
       * Lights control
       * Presence detection
