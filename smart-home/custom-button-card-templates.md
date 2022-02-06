@@ -2,7 +2,7 @@
 title:  "Home Assistant Lovelace Custom Button Card templates collection"
 layout: single
 toc: true
-toc_sticky: true
+comments: true
 ---
 This is my collection of [templates for Custom Home Assistant Lovelace Button Card](https://github.com/custom-cards/button-card#Configuration-Templates).
 
