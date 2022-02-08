@@ -3,6 +3,8 @@
 title:  "DIY Smart Appliance: How to make WiFi-enabled smart humidifier from a regular one"
 redirect_from:
   - /how-to-make-wifi-enabled-smart-humidifier-from-a-regular-one
+header:
+  og_image: /img/how-to-make-wifi-enabled-smart-humidifier-from-a-regular-one/001.jpg
 ---
 So there was a simple air humidifier… Actually this post is a good example on how to make your regular boring home appliance little smarter. The main part of my humidifier will be the Wemos (or Lolin) D1 mini board based on ESP8266 WiFi chip.
 

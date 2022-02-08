@@ -1,6 +1,8 @@
 ---
 title:  "Home Assistant Lovelace Custom Button Card templates collection"
 layout: single
+header:
+  og_image: /img/home-assistant-mobole-lovelace-dashboard-example/cards_example.png
 toc: true
 comments: true
 ---

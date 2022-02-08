@@ -2,6 +2,7 @@
 title:  "Home Assistant Lovelace mobile dashboard example"
 header:
   teaser: /img/home-assistant-mobole-lovelace-dashboard-example/teaser.jpeg
+  og_image: /img/home-assistant-mobole-lovelace-dashboard-example/view.png
 ---
 I hate to dig into thousands of lines of someone's YAML code and think I'm not the only one. That's why I decided to tear down my Lovelace dashboard here for everyone who wants to reuse its components or get some inspiration for their dashboards.
 
