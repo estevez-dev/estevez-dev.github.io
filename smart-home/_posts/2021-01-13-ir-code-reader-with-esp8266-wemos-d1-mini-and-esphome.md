@@ -2,6 +2,7 @@
 title: 'IR code reader with ESP8266 Wemos D1 mini and ESPHome'
 header:
   teaser: /img/ir-code-reader-with-esp8266-wemos-d1-mini-and-esphome/ready.jpg
+  og_image: /img/ir-code-reader-with-esp8266-wemos-d1-mini-and-esphome/ready.jpg
 redirect_from:
   - /ir-code-reader-with-esp8266-wemos-d1-mini-and-esphome
 ---

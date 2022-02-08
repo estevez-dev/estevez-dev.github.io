@@ -2,6 +2,7 @@
 title: 'Using stepper motor to control amplifier volume knob with ESP8266 and ESPHome'
 header:
   teaser: /img/using-stepper-motor-to-control-amplifier-volume-knob-with-esp8266-and-esphome/cover.jpg
+  og_image: /img/using-stepper-motor-to-control-amplifier-volume-knob-with-esp8266-and-esphome/cover.jpg
 redirect_from:
   - /using-stepper-motor-to-control-amplifier-volume-knob-with-esp8266-and-esphome
 ---

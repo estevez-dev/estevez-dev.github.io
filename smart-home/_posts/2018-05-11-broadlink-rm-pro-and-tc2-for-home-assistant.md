@@ -1,5 +1,7 @@
 ---
 title:  "BroadLink RM Pro and TC2 for Home Assistant"
+header:
+    og_image: /img/teaser_500x300.jpg
 redirect_from:
   - /broadlink-rm-pro-and-tc2-for-home-assistant
   - /2018/05/11/broadlink-rm-pro-and-tc2-for-home-assistant

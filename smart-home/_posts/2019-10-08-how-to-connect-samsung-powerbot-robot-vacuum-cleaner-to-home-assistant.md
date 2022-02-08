@@ -1,5 +1,7 @@
 ---
 title: 'How to connect Samsung PowerBot robot vacuum cleaner to Home Assistant'
+header:
+  og_image: /img/teaser_500x300.jpg
 redirect_from:
   - /2019/10/08/how-to-connect-samsung-powerbot-robot-vacuum-cleaner-to-home-assistant
   - /how-to-connect-samsung-powerbot-robot-vacuum-cleaner-to-home-assistant

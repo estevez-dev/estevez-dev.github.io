@@ -1,6 +1,8 @@
 ---
 
 title: '[Updated] Home Assistant presence detection with Google WiFi'
+header:
+  og_image: /img/teaser_500x300.jpg
 redirect_from:
   - /2019/02/21/home-assistant-presence-detection-with-google-wifi
   - /home-assistant-presence-detection-with-google-wifi

@@ -2,6 +2,7 @@
 title: 'Jabra Elite 85h'
 header:
   teaser: /img/jabra-elite-85h/cover.jpeg
+  og_image: /img/jabra-elite-85h/cover.jpeg 
 ---
 
 It is a true pleasure for me to work with new gears. It can be a new monitor or even a new mouse pad. But today, the thing that makes me happy is Jabra Elite 85h true wireless over-the-ear headphones with active noise cancelling.

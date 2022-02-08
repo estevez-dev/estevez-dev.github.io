@@ -1,6 +1,8 @@
 ---
 
 title:  "Smart doorbell with Xiaomi Aqara button and Google Home"
+header:
+  og_image: /img/teaser_500x300.jpg
 redirect_from:
   - /2019/02/15/smart-doorbell-with-xiaomi-aqara-button-and-google-home
   - /smart-doorbell-with-xiaomi-aqara-button-and-google-home

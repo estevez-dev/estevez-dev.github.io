@@ -1,5 +1,7 @@
 ---
 title: 'Testing GitHub Pages Jekyll Website Locally on MacOS'
+header:
+    og_image: /img/teaser_500x300.jpg
 ---
 
 It could be a simple task following the [docs on GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll), but while running this website locally for testing on my Mac I faced some issues. To speed up the process in future and to help others with the same task, I want to describe step by step what I have learned today.

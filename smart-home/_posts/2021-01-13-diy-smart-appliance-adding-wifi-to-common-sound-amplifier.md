@@ -2,6 +2,7 @@
 title: 'DIY Smart Appliance: Adding WiFi power control to an integrated amplifier'
 header:
   teaser: /img/diy-smart-appliance-adding-wifi-to-common-sound-amplifier/ext.jpg
+  og_image: /img/diy-smart-appliance-adding-wifi-to-common-sound-amplifier/ext.jpg
 redirect_from:
   - /diy-smart-appliance-adding-wifi-to-common-sound-amplifier
 ---

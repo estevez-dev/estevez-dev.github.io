@@ -2,6 +2,7 @@
 title: 'Fossil Sport'
 header:
   teaser: /img/fossil-sport-review-or-how-to-solve-all-its-issues/0001.jpg
+  og_image: /img/fossil-sport-review-or-how-to-solve-all-its-issues/0001.jpg
 redirect_from:
     - /2019/07/25/fossil-sport-review-or-how-to-solve-all-its-issues
     - /fossil-sport-review-or-how-to-solve-all-issues-with-it

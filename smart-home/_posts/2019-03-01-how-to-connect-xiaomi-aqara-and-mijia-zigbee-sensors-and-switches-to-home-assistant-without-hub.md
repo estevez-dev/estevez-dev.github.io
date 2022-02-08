@@ -1,6 +1,7 @@
 ---
 title: '[Updated] How to connect Xiaomi Aqara and Mijia ZigBee sensors and switches to Home Assistant without hub'
-
+header:
+  og_image: /img/teaser_500x300.jpg
 redirect_from:
   - /2019/03/01/how-to-connect-xiaomi-aqara-and-mijia-zigbee-sensors-and-switches-to-home-assistant-without-hub
   - /how-to-connect-xiaomi-aqara-and-mijia-zigbee-sensors-and-switches-to-home-assistant-without-hub

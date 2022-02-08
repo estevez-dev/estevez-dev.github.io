@@ -1,6 +1,7 @@
 ---
 title: 'Moving from Windows laptop to Chromebook. The Introduction'
-
+header:
+    og_image: /img//moving-from-windows-laptop-to-chromebook-the-introduction/0001.jpg
 redirect_from:
     - /2019/02/18/moving-from-windows-laptop-to-chromebook-the-introduction
     - /moving-from-windows-laptop-to-chromebook-the-introduction

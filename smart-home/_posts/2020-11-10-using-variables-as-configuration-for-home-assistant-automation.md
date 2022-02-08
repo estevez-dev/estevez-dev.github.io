@@ -1,6 +1,7 @@
 ---
 title: 'Using variables as configuration for Home Assistant automation'
-
+header:
+  og_image: /img/teaser_500x300.jpg
 redirect_from:
   - /using-variables-as-configuration-for-home-assistant-automation
 ---

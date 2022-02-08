@@ -1,6 +1,7 @@
 ---
 title: 'Moving from Windows laptop to Chromebook. First impressions of DELL Inspiron Chromebook 14'
-
+header:
+        og_image: /img/moving-from-windows-laptop-to-chromebook-first-impressions-of-dell-inspiron-chromebook-14/0001.jpg
 redirect_from:
         - /2019/03/05/moving-from-windows-laptop-to-chromebook-first-impressions-of-dell-inspiron-chromebook-14
         - /moving-from-windows-laptop-to-chromebook-first-impressions-of-dell-inspiron-chromebook-14

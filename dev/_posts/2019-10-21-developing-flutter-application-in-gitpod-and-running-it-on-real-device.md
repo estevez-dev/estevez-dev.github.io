@@ -2,6 +2,7 @@
 title: 'Developing Flutter application in Gitpod and running it on real device'
 header:
   teaser: /img/developing-flutter-application-in-gitpod-and-running-it-on-real-device/IMG_20191021_012006-900x620.jpg
+  og_image: /img/developing-flutter-application-in-gitpod-and-running-it-on-real-device/IMG_20191021_012006-900x620.jpg
 redirect_from:
   - /2019/10/21/developing-flutter-application-in-gitpod-and-running-it-on-real-device
   - /developing-flutter-application-in-gitpod-and-running-it-on-real-device

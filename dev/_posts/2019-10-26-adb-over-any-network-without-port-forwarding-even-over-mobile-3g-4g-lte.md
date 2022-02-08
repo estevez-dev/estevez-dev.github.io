@@ -1,6 +1,7 @@
 ---
 title: 'ADB over any network without port forwarding. Even over mobile 3G/4G/LTE'
-
+header:
+    og_image: /img/teaser_500x300.jpg
 redirect_from:
     - /2019/10/26/adb-over-any-network-without-port-forwarding-even-over-mobile-3g-4g-lte
     - /adb-over-any-network-without-port-forwarding-even-over-mobile-3g-4g-lte
