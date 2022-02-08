@@ -22,7 +22,7 @@ title: Some Techy Website
 description: >- # this means to ignore newlines until "baseurl:"
   Just a collection of techy stuff.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://sometechy.website" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:categories/:title:output_ext
 github_username:  estevez-dev
 repository: estevez-dev/estevez-dev.github.io
