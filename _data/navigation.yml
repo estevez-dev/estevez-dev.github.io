@@ -9,3 +9,19 @@ main:
     url: /gear/
   - title: "About"
     url: /about
+
+smart_home:
+  - title: UI
+    children:
+      - title: "Mobile Lovelace dashboard"
+        url: /smart-home/home-assistant-mobole-lovelace-dashboard-example.html
+      - title: Custom Button card templates collection
+        url: /smart-home/custom-button-card-templates
+  - title: ESPHome
+    children:
+      - title: TV controllers
+        url: /smart-home/building-wifi-ir-remote-control-for-any-tv-with-esp8266-and-esphome.html
+      - title: Analogue audio amplifier control
+        url: /smart-home/diy-smart-appliance-adding-wifi-to-common-sound-amplifier.html
+      - title: Humidifier
+        url: /smart-home/how-to-make-wifi-enabled-smart-humidifier-from-a-regular-one.html
