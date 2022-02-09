@@ -69,6 +69,7 @@ defaults:
       toc_sticky: true
       toc_label: "In this post"
       toc_icon: "list"
+      excerpt_separator: <!--more-->
 
 # whitelist:
 #  - jekyll-redirect-from
