@@ -5,3 +5,5 @@ taxonomy: gear
 entries_layout: grid
 classes: wide
 ---
+
+{% include ads_media.html %}

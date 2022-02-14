@@ -7,6 +7,9 @@ classes: wide
 sidebar:
   nav: "smart_home"
 ---
+
+{% include ads_media.html %}
+
 ## Home Assistant smart home configuration documented
 
 I'm working on the documentation for my current and future smart home setup to show an example of how awesome Home Assistant could be.
