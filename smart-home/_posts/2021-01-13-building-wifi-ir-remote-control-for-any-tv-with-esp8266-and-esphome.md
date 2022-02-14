@@ -29,7 +29,7 @@ Now we will take a look at our TV from the inside.
 
 # Build
 
-{% include ads_in_post.html %}
+{% include ads_media.html %}
 
 ## Power supply
 
@@ -54,7 +54,7 @@ Our power supply is ready:
 
 ![image](/img/building-wifi-ir-remote-control-for-any-tv-with-esp8266-and-esphome/power_supply_ready.jpg)
 
-{% include ads_in_post.html %}
+{% include ads_media.html %}
 
 ## The board
 
@@ -96,7 +96,7 @@ Also, we will need the wires to the factory USB port to detect the state of our 
 
 ![image](/img/building-wifi-ir-remote-control-for-any-tv-with-esp8266-and-esphome/usb_power.jpg)
 
-{% include ads_in_post.html %}
+{% include ads_media.html %}
 
 ## The firmware
 
@@ -228,7 +228,7 @@ When trying to put TV housing back on with the WiFi board inside I discovered th
 
 Now we are ready to use our favourite tool - double-sided adhesive tape, to put the board on its constant living place.
 
-{% include ads_in_post.html %}
+{% include ads_media.html %}
 
 ### Factory USB port
  

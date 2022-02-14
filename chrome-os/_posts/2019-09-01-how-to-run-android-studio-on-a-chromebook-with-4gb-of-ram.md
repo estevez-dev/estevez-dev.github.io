@@ -57,7 +57,7 @@ sudo startxfce4
 
 Use <kbd>Ctrl+Alt+Shift+Back</kbd> and <kbd>Ctrl+Alt+Shift+Forward</kbd> to switch between Ubuntu and Chrome OS.
 
-{% include ads_in_post.html %}
+{% include ads_media.html %}
 
 ## Set up Android Studio
 

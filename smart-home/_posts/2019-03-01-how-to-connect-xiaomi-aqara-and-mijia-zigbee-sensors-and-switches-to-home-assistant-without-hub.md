@@ -53,7 +53,7 @@ serial:
 
 Here you can find two serial ports listed under `serial:`. One of them definitely used by ZigBee shield.
 
-{% include ads_in_post.html %}
+{% include ads_media.html %}
 
 ## Home Assistant configuration
 

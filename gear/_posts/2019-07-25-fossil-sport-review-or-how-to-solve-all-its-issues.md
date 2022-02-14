@@ -28,7 +28,7 @@ Here I want to write not a full review of this watch, but highlight the main adv
 
 ![image](/img/fossil-sport-review-or-how-to-solve-all-its-issues/IMG_20190709_110131-1024x768.jpg)
 
-{% include ads_in_post.html %}
+{% include ads_media.html %}
 
 ## The Look
 

@@ -249,7 +249,7 @@ badge:
             ]]]
 ```
 
-{% include ads_in_post.html %}
+{% include ads_media.html %}
 
 ### Usage
 
@@ -301,7 +301,7 @@ variables: # The main configuration for the button
   top_right_icon: battery
 ```
 
-{% include ads_in_post.html %}
+{% include ads_media.html %}
 
 ## Light
 
@@ -347,7 +347,7 @@ light:
           ]]]
 ```
 
-{% include ads_in_post.html %}
+{% include ads_media.html %}
 
 ### Useage
 
@@ -444,7 +444,7 @@ room_state:
     action: none
 ```
 
-{% include ads_in_post.html %}
+{% include ads_media.html %}
 
 ### Usage
 
@@ -506,7 +506,7 @@ climate_device:
       - padding-left: 10px
 ```
 
-{% include ads_in_post.html %}
+{% include ads_media.html %}
 
 ### Usage
 
@@ -547,7 +547,7 @@ heater:
     ]]]
 ```
 
-{% include ads_in_post.html %}
+{% include ads_media.html %}
 
 ### Usage
 
@@ -624,7 +624,7 @@ template:
   - humidifier
 ```
 
-{% include ads_in_post.html %}
+{% include ads_media.html %}
 
 ## Mode card
 
@@ -720,7 +720,7 @@ mode_card:
           ]]]
 ```
 
-{% include ads_in_post.html %}
+{% include ads_media.html %}
 
 ### Usage
 
@@ -747,4 +747,4 @@ cards:
     mode: night
 ```
 
-{% include ads_in_post.html %}
+{% include ads_media.html %}

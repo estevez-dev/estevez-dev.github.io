@@ -38,7 +38,7 @@ As I already have Wemos D1 mini and a relay in my amplifier, you could see more 
 **Note** that ESPHome currently supports only two types of stepper motor drivers. See ESPHome [documentation](https://esphome.io/components/stepper/index.html) for more info.
 {: .notice--info}
 
-{% include ads_in_post.html %}
+{% include ads_media.html %}
 
 ## Building
 
@@ -66,7 +66,7 @@ I know it is not the best binding but it works. I don't think this solution is p
 
 If you still here lats go to the software part.
 
-{% include ads_in_post.html %}
+{% include ads_media.html %}
 
 ## ESPHome
 

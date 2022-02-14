@@ -34,7 +34,7 @@ Finally, close the housing:
 
 ![image](/img/ir-code-reader-with-esp8266-wemos-d1-mini-and-esphome/ready.jpg)
 
-{% include ads_in_post.html %}
+{% include ads_media.html %}
 
 ## Using
 In ESPHome let's create a config:

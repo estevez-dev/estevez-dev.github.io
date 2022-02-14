@@ -26,7 +26,7 @@ I need to say I'm more than happy with my choice. Let's start with the exterior.
 
 ![image](/img/jabra-elite-85h/002.jpeg)
 
-{% include ads_in_post.html %}
+{% include ads_media.html %}
 
 Having a touch-enabled surface on Soundcore Space NC with gesture recognition, I started to hate it. It is so modern and innovative, at first glance, but becomes so frustrating the more you use it. You can accidentally switch tracks, change volume level or hit play/pause while putting the headphones on your head or taking them down. That is why I'm happy to have physical buttons on Jabra.
 

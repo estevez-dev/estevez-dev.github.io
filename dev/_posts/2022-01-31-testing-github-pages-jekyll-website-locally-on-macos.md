@@ -71,7 +71,7 @@ ruby -v
 
 It should show the version of Ruby. Just to make sure.
 
-{% include ads_in_post.html %}
+{% include ads_media.html %}
 
 # Jekyll
 

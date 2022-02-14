@@ -39,7 +39,7 @@ Regular wall switches were removed and the wires were connected to power light b
 
 ![image](/img/smart-home-in-rent-apartment/wall_switch_01.jpg)
 
-{% include ads_in_post.html %}
+{% include ads_media.html %}
 
 ![image](/img/smart-home-in-rent-apartment/wall_switch_02.jpg)
 

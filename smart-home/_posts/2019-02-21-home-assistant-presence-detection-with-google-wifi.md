@@ -68,7 +68,7 @@ Content Type: `application/json`
 
 Body: `{ "action": "call_service", "service": "input_boolean.turn_on", "entity_id": "input_boolean.is_yegor_home"}`
 
-{% include ads_in_post.html %}
+{% include ads_media.html %}
 
 ## Handling IFTTT requests
 
