@@ -42,7 +42,7 @@ comments:
   provider: "giscus"
   giscus:
     repo_id: MDEwOlJlcG9zaXRvcnkzNjAxODYwNTc=
-    category_name: Announcements
+    category_name: General
     category_id: DIC_kwDOFXgAyc4B_D-U
     discussion_term: title
     reactions_enabled: 1
